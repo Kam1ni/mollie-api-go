@@ -33,6 +33,7 @@ type Customer struct {
 	Metadata  map[string]interface{} `json:"metadata,omitempty"`
 	CreatedAt *time.Time             `json:"createdAt,omitempty"`
 	Links     CustomerLinks          `json:"_links,omitempty"`
+	Testmode  bool                   `json:"testmode,omitempty"`
 }
 
 // ListCustomersOptions contains valid query parameters for the list customers endpoint.
