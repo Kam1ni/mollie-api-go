@@ -61,6 +61,7 @@ type Payment struct {
 	AmountRefunded                  *Amount         `json:"amountRefunded,omitempty"`
 	AmountRemaining                 *Amount         `json:"amountRemaining,omitempty"`
 	AmountCaptured                  *Amount         `json:"amountCaptured,omitempty"`
+	AmountChargedBack               *Amount         `json:"amountChargedBack,omitempty"`
 	Description                     string          `json:"description,omitempty"`
 	RedirectURL                     string          `json:"redirectUrl,omitempty"`
 	WebhookURL                      string          `json:"webhookUrl,omitempty"`
